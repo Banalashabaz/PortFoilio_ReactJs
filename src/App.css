@@ -1,0 +1,241 @@
+.App {
+  text-align: center;
+}
+#page1{
+  background-image: url('./Components/images/IMG-20241124-WA0005.jpg');
+  background-size:cover ;
+  height: 100vh;
+  margin-top: 0px;
+  
+ 
+}
+#header{
+color:white;
+background: #f70776; 
+width:max-content;
+ padding: 10px;
+ font-size: 50px;
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+letter-spacing: 3px;
+/* margin-left: 35%; */
+margin-top: 0px;
+border-bottom: 3px solid white;
+padding-left: 50px;
+padding-right: 50px;
+transform:skew(-5deg);
+}
+#outer{
+ width: 300px;
+height: 300px;
+border-radius: 50%;
+border: 15px solid white;
+
+}
+#inner{
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  border:10px solid #f70776;
+border-style: dotted;
+position: relative;
+top:-10px;
+right:10px;
+
+
+}
+#photo{
+  background-image: url('./Components/images/shabaz.jpg');
+background-size: cover;
+width: 269px;
+height: 269px;
+border-radius: 50%;
+ margin-left: 1.5px;
+ margin-top: 1.5px;
+}
+#navbar{
+height: 50px;
+color: white;
+background-color: #f70776;  
+
+}
+#button{
+  width:max-content;
+  height: 40px;
+  font-size: large;
+  padding-left: 30px;
+  padding-right: 30px;
+color: white;
+background-color: #f70776;
+border: none  ;
+margin-top: 10px;
+
+}
+#button:hover{
+  text-decoration: underline;
+  color:black;
+}
+#about{
+font-size: 50px;
+font-weight: 400;
+text-decoration: underline;
+margin-top: 10%;;
+}
+#progress{
+  width:60%;
+}
+#extbar{
+  width:50vw;
+  height: 30px;
+  background-color: gray;
+  border-radius: 10px;
+}
+.progress{
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 30%;
+
+  }
+.progress-bar{
+  font-size: large;
+  text-align: left;
+  padding-left: 50px;
+ 
+}
+.emojis{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#project{
+  margin-top: 100px;
+  margin-left: 300px;
+ display: flex;
+ justify-content: space-evenly;
+  width: 60%;
+ flex-wrap: wrap;
+justify-content: space-evenly;
+/* background-color: aliceblue; */
+
+}
+#data{
+  position: relative;
+  left:30px;
+  top:-150px;
+  width: 300px;
+  color: white;
+  font-size: x-large;
+  /* display: none; */
+  visibility: hidden;
+  width:300px;
+  transition: transform linear 2s;
+}
+.image{
+  transition: transform linear 0.4s;
+
+}
+.image:hover{
+  transform: scale(1.12);
+}
+
+.image:hover #data{
+ /* display: block; */
+ visibility:visible;
+  /* color: red; */
+  transform: translateY(20px);
+}
+#contact{
+  height: 70vh;
+  background-color: rgb(40, 39, 39);
+}
+#contact h1{
+font-size: 50px;
+color:white;
+font-weight: 200;
+text-decoration: underline;
+text-decoration-thickness: 2px;
+padding-top: 5px ;
+}
+form{
+  margin-top: 50px;
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-left: 30%;
+}
+#Name{
+  width:40vw;
+  height: 40px;
+  border:3px solid #f70776;
+  outline: none;
+}
+#Email{
+  width:40vw;
+  height: 40px;
+  border:3px solid #f70776;
+  outline: none;
+}
+#Message{
+  width:40vw;
+  height: 140px;
+  border:3px solid #f70776;
+  outline: none;
+  
+}
+#Message::placeholder{
+ position: absolute;
+ top:10px;
+}
+#formSubmit{
+  width:40vw;
+  height: 40px; 
+  background-color: #f70776;
+  color: white;
+  letter-spacing: 10px;
+  border: none;
+}
+#Footer{
+  height: 20vh;
+  background-color: black;
+}
+#footerbtn{
+  background-color: #f70776;
+  border: none;
+  border-radius:  9px;
+  margin-top: 50px;
+}
+#footerbtn i{
+ color: white;
+ font-size: 40px;
+ padding: 3px;
+}
+#foot{
+  display: flex;
+  justify-content: center;
+  gap:70px;
+ 
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: black;
+}
+#bt1{
+  width:max-content;
+  padding-left:20px;
+  padding-right:20px;
+  font-Size:25px;
+  background-color:#f70776;
+  border:none;
+  color:white;
+  transform:skew(-10deg);
+  padding:10px;
+   margin-top:50px;
+   transition:transform linear 0.3s;
+}
+#bt1:hover{
+ transform: scale(1.2);
+}
