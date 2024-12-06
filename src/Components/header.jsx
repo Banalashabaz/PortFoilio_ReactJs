@@ -2,7 +2,8 @@ import React from 'react'
 function Header() {
     const style={
         display:"flex",
-        justifyContent:"center"
+        justifyContent:"center",
+        
     }
     return ( 
         <div style={style}>

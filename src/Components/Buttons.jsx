@@ -2,14 +2,14 @@ import React from 'react';
 function Buttons() {
     const style1={
         width:"max-content",
-        paddingLeft:"20px",
-        paddingRight:"20px",
+        paddingLeft:"30px",
+        paddingRight:"30px",
         fontSize:"25px",
         backgroundColor:"#f70776",
         border:"none",
         color:"white",
         padding:"10px",
-        marginTop:"50px",
+        marginTop:"70px",
         transform:"skew(-10deg)",
         transition:"transform linear 0.3s",
         
@@ -24,7 +24,7 @@ function Buttons() {
         border:"2px solid black ",
     
         padding:"10px",
-        marginTop:"80px"
+        marginTop:"100px"
     }
     return ( 
         <>

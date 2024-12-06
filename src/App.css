@@ -6,7 +6,6 @@
   background-size:cover ;
   height: 100vh;
   margin-top: 0px;
-  
  
 }
 #header{
@@ -56,7 +55,7 @@ border-radius: 50%;
 height: 50px;
 color: white;
 background-color: #f70776;  
-
+position: sticky;
 }
 #button{
   width:max-content;
@@ -78,7 +77,8 @@ margin-top: 10px;
 font-size: 50px;
 font-weight: 400;
 text-decoration: underline;
-margin-top: 10%;;
+margin-top: 10%;
+padding-top: 70px;
 }
 #progress{
   width:60%;
@@ -115,8 +115,13 @@ margin-top: 10%;;
   width: 60%;
  flex-wrap: wrap;
 justify-content: space-evenly;
-/* background-color: aliceblue; */
 
+
+}
+#pro{
+
+  background-color: aliceblue;
+  
 }
 #data{
   position: relative;
@@ -181,7 +186,7 @@ form{
   height: 140px;
   border:3px solid #f70776;
   outline: none;
-  
+    
 }
 #Message::placeholder{
  position: absolute;

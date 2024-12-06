@@ -48,12 +48,14 @@ function App() {
  }
 
 </div>
+<div id="pro">
 <Myprojects></Myprojects>
 
  <div id="project">
 {
   projects.map((data,index)=>{return <> <Projects src={data.src}></Projects></>})
 }
+</div>
 </div> 
 <Contact id="contact"></Contact>
 <div id="Footer">
